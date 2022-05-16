@@ -1,0 +1,17 @@
+<div class="question-block">
+  <p>
+      <%= params[:question] %>
+      <br>
+      <em>-You</em>
+  </p>
+</div>
+
+<div class="answer-block">
+  <p>
+      <strong><%= @answer%></strong>
+      <br>
+      <em>-Your coach</em>
+  </p>
+</div>
+
+<%= link_to "Ask a question", ask_path %>
